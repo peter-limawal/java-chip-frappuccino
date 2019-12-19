@@ -10,8 +10,17 @@ import java.util.Scanner;
 
 public class armstrong {
 
-  public boolean testArmstrong(int num) {
+  public boolean testArmstrong(long num) {
 
+    long length = (long) (Math.log10(num) + 1);
+    long testSum = 0;
+
+    for (long i = length; i > 0; i--) {
+      long a = num % 10;
+      testSum += Math.pow(a, length);
+      num -= a;
+    }
+    
   }
 
   public static void main(String[] args) {
@@ -21,7 +30,7 @@ public class armstrong {
     System.out.print("Enter test number (Must be integer): ");
     long testNum = number.nextLong();
     decision = number.testArmstrong(testNum);
-    
+
   }
 
 }
