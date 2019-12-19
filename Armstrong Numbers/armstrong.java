@@ -22,6 +22,13 @@ public class armstrong {
       num = (num - a) / 10;
     }
 
+    if (testSum = initial) {
+      return true;
+    }
+
+    else if (testSum != inital) {
+      return false;
+    }
   }
 
   public static void main(String[] args) {
@@ -32,6 +39,13 @@ public class armstrong {
     System.out.print("Test number (Must be integer): " + testNum);
     boolean decision = number.testArmstrong(testNum);
 
+    if (decision == true) {
+      System.out.println("The integer " + testNum + " is an Armstrong number");
+    }
+
+    else if (decision == false) {
+      System.out.println("The integer " + testNum + " is not an Armstrong number");
+    }
   }
 
 }
