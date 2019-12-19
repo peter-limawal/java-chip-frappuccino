@@ -10,6 +10,7 @@ public class 99bottles {
           bottles--;
           System.out.println("Take one down, pass it around, " + bottles + " bottles of beer on the wall...");
         }
+          
         if (bottles > 1 && bottles != 99) {
           System.out.println("\n" + bottles + " bottles of beer on the wall, " + bottles + " bottles of beer.");
           bottles--;
