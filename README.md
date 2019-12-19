@@ -4,7 +4,7 @@ Creating simple projects to learn java
 Project ideas by: JorgeGonzalez
 https://github.com/jorgegonzalez/beginner-projects
 
-## [99bottles.java](https://github.com/peter-limawal/learn-java/99bottles.java)
+## [99bottles.java](https://github.com/peter-limawal/learn-java/blob/master/99bottles.java)
 ```
 Solution:
 99 bottles of beer on the wall, 99 bottles of beer.
