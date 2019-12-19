@@ -12,24 +12,25 @@ public class armstrong {
 
   public boolean testArmstrong(long num) {
 
+    long initial = num;
     long length = (long) (Math.log10(num) + 1);
     long testSum = 0;
 
     for (long i = length; i > 0; i--) {
       long a = num % 10;
       testSum += Math.pow(a, length);
-      num -= a;
+      num = (num - a) / 10;
     }
-    
+
   }
 
   public static void main(String[] args) {
 
     Scanner number = new Scanner(System.in);
 
-    System.out.print("Enter test number (Must be integer): ");
     long testNum = number.nextLong();
-    decision = number.testArmstrong(testNum);
+    System.out.print("Test number (Must be integer): " + testNum);
+    boolean decision = number.testArmstrong(testNum);
 
   }
 
