@@ -19,8 +19,9 @@ public class armstrong {
     Scanner number = new Scanner(System.in);
 
     System.out.print("Enter test number (Must be integer): ");
-    long testNum = input.nextLong();
-    decision = testArmstrong(testNum);
+    long testNum = number.nextLong();
+    decision = number.testArmstrong(testNum);
+    
   }
 
 }
