@@ -6,7 +6,7 @@ https://github.com/jorgegonzalez/beginner-projects
 
 Solutions posted below
 
-## [99bottles.java](https://github.com/peter-limawal/learn-java/blob/master/99 Bottles/99bottles.java)
+## [99bottles.java](https://github.com/peter-limawal/learn-java/blob/master/99%20Bottles/99bottles.java)
 ```
 99 bottles of beer on the wall, 99 bottles of beer.
 Take one down, pass it around, 98 bottles of beer on the wall...
@@ -309,5 +309,5 @@ No more bottles of beer on the wall, no more bottles of beer.
 Go to the store and buy some more, 99 bottles of beer on the wall...
 ```
 
-## [armstrong.java](https://github.com/peter-limawal/learn-java/blob/master/Armstrong Numbers/armstrong.java)
+## [armstrong.java](https://github.com/peter-limawal/learn-java/blob/master/Armstrong%20Numbers/armstrong.java)
 ```
