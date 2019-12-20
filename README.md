@@ -11,3 +11,5 @@ https://github.com/peter-limawal/learn-java/blob/master/99%20Bottles/99bottlesSo
 
 ## [armstrong.java](https://github.com/peter-limawal/learn-java/blob/master/Armstrong%20Numbers/armstrong.java)
 https://github.com/peter-limawal/learn-java/blob/master/Armstrong%20Numbers/armstrongSolution.txt
+
+## [magic8ball.java](https://github.com/peter-limawal/learn-java/blob/master/Magic%208%20Ball/magic8ball.java)
