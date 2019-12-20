@@ -10,14 +10,14 @@ import java.util.Scanner;
 
 public class armstrong {
 
-  public boolean testArmstrong(long num) {
+  public static Boolean testArmstrong(int num) {
 
-    long initial = num;
-    long length = (long) (Math.log10(num) + 1);
-    long testSum = 0;
+    int initial = num;
+    int length = (int) (Math.log10(num) + 1);
+    int testSum = 0;
 
-    for (long i = length; i > 0; i--) {
-      long a = num % 10;
+    for (int i = length; i > 0; i--) {
+      int a = num % 10;
       testSum += Math.pow(a, length);
       num = (num - a) / 10;
     }
@@ -35,9 +35,9 @@ public class armstrong {
 
     Scanner number = new Scanner(System.in);
 
-    long testNum = number.nextLong();
+    int testNum = number.nextInt();
     System.out.print("Test number (Must be integer): " + testNum);
-    boolean decision = number.testArmstrong(testNum);
+    Boolean decision = number.testArmstrong(testNum);
 
     if (decision == true) {
       System.out.println("The integer " + testNum + " is an Armstrong number");
