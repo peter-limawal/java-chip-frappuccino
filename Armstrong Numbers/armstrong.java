@@ -39,6 +39,7 @@ public class armstrong {
   public static void main(String[] args) {
 
     Scanner number = new Scanner(System.in);
+
     int testNum = number.nextInt();
     System.out.println("Test number (Must be integer): " + testNum);
 
@@ -52,6 +53,7 @@ public class armstrong {
     else if (decision == false) {
       System.out.println("The integer " + testNum + " is not an Armstrong number");
     }
+    
   }
 
 }
