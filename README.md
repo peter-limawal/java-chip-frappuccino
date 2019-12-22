@@ -13,3 +13,5 @@ https://github.com/peter-limawal/learn-java/blob/master/99%20Bottles/99bottlesSo
 https://github.com/peter-limawal/learn-java/blob/master/Armstrong%20Numbers/armstrongSolution.txt
 
 ## [magic8ball.java](https://github.com/peter-limawal/learn-java/blob/master/Magic%208%20Ball/magic8ball.java)
+
+## [pythagorean.java](https://github.com/peter-limawal/learn-java/blob/master/Pythagorean%20Triples%20Checker/pythagorean.java)
