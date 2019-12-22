@@ -17,7 +17,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 public class magic8ball {
-// Method to generate random answers
+
   public String response(int i) {
 // Creating ArrayList for possible answers
     ArrayList<String> answers = new ArrayList<String>();
@@ -44,28 +44,13 @@ public class magic8ball {
     answers.add("My sources say no.");
     answers.add("Outlook not so good.");
     answers.add("Very doubtful.");
-// Return of method
-    return answers.get(i);
-  }
-// Method to generate random number between 0 - 19
-  public int random() {
-// Defining range
-    int max = 19;
-    int min = 0;
-    int range = max - min + 1;
-// Generating numbers
-    return (int) (Math.random() * range);
   }
 
   public static void main(String[] args) {
-// Creating instance
-    magic8ball object = new magic8ball();
-// To obtain input
+
     Scanner q = new Scanner(System.in);
-// Setting variable question as input
     String question = q.nextLine();
-// Output printed with the 20 answers
+
     System.out.println("Thinking...");
-    System.out.println(object.response(object.random()));
   }
 }
