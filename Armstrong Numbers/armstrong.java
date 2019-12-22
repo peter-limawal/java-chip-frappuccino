@@ -43,8 +43,9 @@ public class armstrong {
     int testNum = number.nextInt();
 // Print message
     System.out.println("Test number (Must be integer): " + testNum);
-// Calling testArmstrong() method
+// Creating instance
     armstrong test = new armstrong();
+// Calling testArmstrong() method
     Boolean decision = test.testArmstrong(testNum);
 // Message printed if true
     if (decision == true) {
