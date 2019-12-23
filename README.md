@@ -15,3 +15,5 @@ https://github.com/peter-limawal/learn-java/blob/master/Armstrong%20Numbers/arms
 ## [magic8ball.java](https://github.com/peter-limawal/learn-java/blob/master/Magic%208%20Ball/magic8ball.java)
 
 ## [pythagorean.java](https://github.com/peter-limawal/learn-java/blob/master/Pythagorean%20Triples%20Checker/pythagorean.java)
+
+## [rockpaperscissors.java](https://github.com/peter-limawal/learn-java/blob/master/Rock%20Paper%20Scissors%20Game/rockpaperscissors.java)
