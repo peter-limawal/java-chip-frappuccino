@@ -14,27 +14,28 @@ import java.util.Scanner;
 public class rockpaperscissors {
 
   String verdict;
-  int comp;
+  int player;
+  String result;
 
-  public void assign(int type) {
+  public String assign(int type) {
 
     switch (type) {
       case 0:
-        comp = "rock";
+        result = "rock";
         break;
       case 1:
-        comp = "paper";
+        result = "paper";
         break;
       case 2:
-        comp = "scissors";
+        result = "scissors";
         break;
     }
 
+    return result;
+
   }
 
-  public void battle(String rps) {
-
-    int player;
+  public String battle(String rps, int comp) {
 
     switch (rps) {
       case "rock":
@@ -48,21 +49,21 @@ public class rockpaperscissors {
         break;
     }
 
-    comp = (int) (Math.random() * 2);
-
     int x = (player - comp + 3) % 3;
 
-    if (x == 1) {
-      verdict = "win";
+    switch (x) {
+      case 1:
+        verdict = "win";
+        break;
+      case 2:
+        verdict = "lose";
+        break;
+      case 0:
+        verdict = "draw";
+        break;
     }
 
-    else if (x == 2) {
-      verdict = "lose";
-    }
-
-    else if (x == 0) {
-      verdict = "draw";
-    }
+    return verdict;
 
   }
 
@@ -74,18 +75,12 @@ public class rockpaperscissors {
     String rps = choice.nextLine();
     rps = rps.toLowerCase();
 
-    if (rps == "rock" || rps == "paper" || rps == "scissors") {
-      System.out.println("You have chosen: " + rps);
+    System.out.println("You have chosen: " + rps);
 
-      object.battle(rps);
+    int comp = (int) (Math.random() * 3);
 
-      System.out.println("Computer has chosen: " + object.assign(comp));
-      System.out.println("You have " + verdict);
-
-    else {
-      System.out.println("Please select a proper weapon for battle");
-      System.out.println("E.g. Rock, Paper, Scissors");
-    }
+    System.out.println("Computer has chosen: " + object.assign(comp));
+    System.out.println("Verdict: " + object.battle(rps, comp));
 
   }
 
