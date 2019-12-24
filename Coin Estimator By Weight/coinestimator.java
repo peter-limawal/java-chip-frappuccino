@@ -7,15 +7,20 @@ Instructions:
   and then estimate how many of each type you have and then how many wrappers you'll need.
   For example, if you weigh all of your dimes and see that you have 1276.9g of them,
   you can estimate that you have about 563 dimes (since each one is 2.268g) and you would be able to fill 11 dime wrappers.
-- Here is the weight of each coin and how many fit inside each type of wrapper.
 - Allow the user to input the total weight of each type of coin they have (pennies, nickels, dimes, and quarters).
 - Print out how many of each type of coin wrapper they would need, how many coins they have, and the estimated total value of all of their money.
   ~ Subgoals:
   ~ Round all numbers printed out to the nearest whole number.
   ~ Allow the user to select whether they want to submit the weight in either grams or pounds.
 */
+import java.util.*;
+
 public class coinestimator {
+
   public static void main(String[] args) {
 
+    Scanner coins = new Scanner(System.in);
+    
   }
+
 }
