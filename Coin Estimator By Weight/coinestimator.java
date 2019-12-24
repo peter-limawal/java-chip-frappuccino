@@ -17,10 +17,34 @@ import java.util.*;
 
 public class coinestimator {
 
+  double penny = 2.500;
+  double nickel = 5.000;
+  double dime = 2.268;
+  double quarter = 5.670;
+
+  public int amount(int wCoins) {
+
+  }
+
   public static void main(String[] args) {
 
     Scanner coins = new Scanner(System.in);
-    
+
+    double wPennies = coins.nextInt();
+    double wNickels = coins.nextInt();
+    double wDimes = coins.nextInt();
+    double wQuarters = coins.nextInt();
+
+    System.out.println("Pennies: " + wPennies + "g");
+    System.out.println("Nickels: " + wNickels + "g");
+    System.out.println("Dimes: " + wDimes + "g");
+    System.out.println("Quarters: " + wQuarters + "g");
+
+    System.out.println("Number of Pennies: " + (wPennies / penny));
+    System.out.println("Number of Nickels: " + (wNickels / nickel));
+    System.out.println("Number of Dimes: " + (wDimes / dime));
+    System.out.println("Number of Quarters: " + (wQuarter / quarter));
+
   }
 
 }
