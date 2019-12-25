@@ -19,3 +19,6 @@ https://github.com/peter-limawal/learn-java/blob/master/Armstrong%20Numbers/arms
 ## [rockpaperscissors.java](https://github.com/peter-limawal/learn-java/blob/master/Rock%20Paper%20Scissors%20Game/rockpaperscissors.java)
 
 ## [coinestimator.java](https://github.com/peter-limawal/learn-java/blob/master/Coin%20Estimator%20By%20Weight/coinestimator.java)
+
+## [madlibs.java](https://github.com/peter-limawal/learn-java/blob/master/Mad%20Libs%20Story%20Maker/madlibs.java)
+https://github.com/peter-limawal/learn-java/blob/master/Mad%20Libs%20Story%20Maker/madlibs.txt
