@@ -1,0 +1,22 @@
+Input:
+animal1 = bear
+place1 = school
+name1 = James
+name2 = Richards
+noun1 = boss
+noun2 = shirt
+noun3 = polyester
+verb1 = eat
+verb2 = smell
+
+Output:
+Once, there lived a bear named James. He stayed with his owners, Mr. and Mrs. Richards. They pampered James like a boss.
+However, James loved eating polyester clothes and his master and mistress smelled him for doing so.
+One morning, Mr. and Mrs. Richards had to go to the school. Before leaving, they put Mr. Richards' favourite polyester shirt on the clothesline.
+'James, don't eat the shirt ,' warned the Richards. Once the Richards left, it began to pour heavily.
+'Oh, the shirt is getting wet! I must pull it down,' thought James. However, even before he knew it, he was eating the shirt.
+When the rains stopped, James realised what he had done. 'Oh no,' he thought, 'this time they will throw me out of the house!'
+He decided to keep quiet about it. When the Richards returned, Mr. Richards asked, 'Has the wind blown away my shirt?'
+James promptly nodded. However, Mrs. Richards noticed a strand of polyester sticking against James' chin.
+'Why! It's the shirt's polyester,' screamed Mrs. Richards. 'So you're the culprit,' confirmed Mr. Richards.
+Poor James had to go without his lunch and dinner. He swore never to eat polyester again.
