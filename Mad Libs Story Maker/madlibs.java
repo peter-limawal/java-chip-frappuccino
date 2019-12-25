@@ -15,13 +15,14 @@ Instructions:
 */
 import java.util.*;
 
-public class madlibs.java {
+public class madlibs {
 
   public static void main(String[] args) {
 
     Scanner input = new Scanner(System.in);
 
     String animal1 = input.nextLine();
+    String place1 = input.nextLine();
     String name1 = input.nextLine();
     String name2 = input.nextLine();
     String noun1 = input.nextLine();
@@ -32,22 +33,22 @@ public class madlibs.java {
 
     System.out.print("Once, there lived a " + animal1 + " named " + name1 + ". ");
     System.out.print("He stayed with his owners, Mr. and Mrs. " + name2 + ". ");
-    System.out.print("They pampered " + name1 + " like a  " + noun1 + " . ");
-    System.out.print("However, " + name1 + " loved " + verb1 + "ing " + noun3 + "len clothes and his master and mistress " + verb2 + "ed him for doing so. ");
-    System.out.print("One morning, Mr. and Mrs. " + name2 + " had to go to the market. ");
-    System.out.print("Before leaving, they put Mr. " + name2 + "’ favourite  " + noun3 + "len  " + noun2 + "  on the clothesline. ");
-    System.out.print("“" + name1 + ", don’t " + verb1 + " the  " + noun2 + " ,” warned the " + name2 + "es. ");
-    System.out.print("Once the " + name2 + "es left, it began to pour heavily. ");
-    System.out.print("“Oh, the  " + noun2 + "  is getting wet! I must pull it down,” thought " + name1 + ". ");
-    System.out.print("However, even before he knew it, he was " + verb1 + "ing the  " + noun2 + " . ");
+    System.out.print("They pampered " + name1 + " like a " + noun1 + ". ");
+    System.out.print("However, " + name1 + " loved " + verb1 + "ing " + noun3 + " clothes and his master and mistress " + verb2 + "ed him for doing so. ");
+    System.out.print("One morning, Mr. and Mrs. " + name2 + " had to go to the " + place1 + ". ");
+    System.out.print("Before leaving, they put Mr. " + name2 + "' favourite " + noun3 + " " + noun2 + " on the clothesline. ");
+    System.out.print("'" + name1 + ", don't " + verb1 + " the " + noun2 + " ,' warned the " + name2 + ". ");
+    System.out.print("Once the " + name2 + " left, it began to pour heavily. ");
+    System.out.print("'Oh, the " + noun2 + " is getting wet! I must pull it down,' thought " + name1 + ". ");
+    System.out.print("However, even before he knew it, he was " + verb1 + "ing the " + noun2 + ". ");
     System.out.print("When the rains stopped, " + name1 + " realised what he had done. ");
-    System.out.print("“Oh no,” he thought, “this time they will throw me out of the house.” ");
+    System.out.print("'Oh no,' he thought, 'this time they will throw me out of the house!' ");
     System.out.print("He decided to keep quiet about it. ");
-    System.out.print("When the " + name2 + "es returned, Mr. " + name2 + " asked, “Has the wind blown away my  " + noun2 + " ?” ");
+    System.out.print("When the " + name2 + " returned, Mr. " + name2 + " asked, 'Has the wind blown away my " + noun2 + "?' ");
     System.out.print("" + name1 + " promptly nodded. ");
-    System.out.print("However, Mrs. " + name2 + " noticed a strand of  " + noun3 + "  sticking against " + name1 + "’ chin. ");
-    System.out.print("“Why! It’s the  " + noun2 + "   " + noun3 + " ,” screamed Mrs. " + name2 + ". ");
-    System.out.print("“So you’re the culprit,” confirmed Mr. " + name2 + ". ");
+    System.out.print("However, Mrs. " + name2 + " noticed a strand of " + noun3 + " sticking against " + name1 + "' chin. ");
+    System.out.print("'Why! It's the " + noun2 + "'s " + noun3 + ",' screamed Mrs. " + name2 + ". ");
+    System.out.print("'So you're the culprit,' confirmed Mr. " + name2 + ". ");
     System.out.print("Poor " + name1 + " had to go without his lunch and dinner. ");
     System.out.print("He swore never to " + verb1 + " " + noun3 + " again. ");
 
