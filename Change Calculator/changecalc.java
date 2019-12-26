@@ -25,44 +25,54 @@ public class changecalc {
 // Declaring variable i
     int i = 1;
 // While loop for quarters
-    while (change > quarters) {
+    while (change >= quarters) {
       change -= quarters;
       coins[0] = i;
       i++;
     }
     i = 1;
-// While loop for nickels
-    while (change > nickels) {
-      change -= nickels;
+// While loop for dimes
+    while (change >= dimes) {
+      change -= dimes;
       coins[1] = i;
       i++;
     }
     i = 1;
-// While loop for dimes
-    while (change > dimes) {
-      change -= dimes;
+// While loop for nickels
+    while (change >= nickels) {
+      change -= nickels;
       coins[2] = i;
-      i++
+      i++;
     }
     i = 1;
-// While loop for pennies
-    while (change > pennies) {
+// While loop for pennies (THERE IS SOMETHING WRONG HERE)
+    while (change >= pennies) {
       change -= pennies;
       coins[3] = i;
-      i++
+      i++;
     }
 // Return value for method
     return coins;
   }
 
   public static void main(String[] args) {
-
+// Creating instance
+    changecalc object = new changecalc();
+// To obtain input
     Scanner input = new Scanner(System.in);
 // Initial print message (Instructions)
     System.out.println("Please insert amount of change (in dollars)");
 // Setting initial input to variable change
     Double change = input.nextDouble();
-
+// Calling separator method on change
+    int[] coins = object.separator(change);
+// Creating variables of amount of US coins
+    int quarters = coins[0];
+    int dimes = coins[1];
+    int nickels = coins[2];
+    int pennies = coins[3];
+// Output message
+    System.out.println("You need: " + quarters + " quarter(s), " + dimes + " dime(s), " + nickels + " nickel(s), and " + pennies + " penny(ies)");
   }
 
 }
