@@ -14,12 +14,53 @@ import java.util.*;
 
 public class changecalc {
 
+  public int[] separator(Double change) {
+// Creating integer Array coins
+    int[] coins = {0, 0, 0, 0};
+// Declaring variables of US coins
+    Double quarters = 0.25;
+    Double dimes = 0.10;
+    Double nickels = 0.05;
+    Double pennies = 0.01;
+// Declaring variable i
+    int i = 1;
+// While loop for quarters
+    while (change > quarters) {
+      change -= quarters;
+      coins[0] = i;
+      i++;
+    }
+    i = 1;
+// While loop for nickels
+    while (change > nickels) {
+      change -= nickels;
+      coins[1] = i;
+      i++;
+    }
+    i = 1;
+// While loop for dimes
+    while (change > dimes) {
+      change -= dimes;
+      coins[2] = i;
+      i++
+    }
+    i = 1;
+// While loop for pennies
+    while (change > pennies) {
+      change -= pennies;
+      coins[3] = i;
+      i++
+    }
+// Return value for method
+    return coins;
+  }
+
   public static void main(String[] args) {
 
     Scanner input = new Scanner(System.in);
-
-    System.out.println("Please insert amount of change");
-
+// Initial print message (Instructions)
+    System.out.println("Please insert amount of change (in dollars)");
+// Setting initial input to variable change
     Double change = input.nextDouble();
 
   }
