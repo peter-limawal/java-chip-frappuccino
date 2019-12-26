@@ -6,11 +6,9 @@ Instructions:
 - Example: Take 1634. Four digits. So, 1^4 + 6^4 + 3^4 + 4^4 = 1 + 1296 + 81 + 256 = 1634. So 1634 is an Armstrong number.
 - Tip: All single digit numbers are Armstrong numbers.
 */
-import java.util.Scanner;
+import java.util.*;
 
 public class armstrong {
-// Declaring variable verdict to determine if number is armstrong or not
-  Boolean verdict;
 // Method to determine armstrong number
   public Boolean testArmstrong(int num) {
 // Declaring variables for armstrong test
@@ -25,35 +23,42 @@ public class armstrong {
     }
 // Conditions to determine if armstrong number or not
     if (testSum == initial) {
-      verdict = true;
+      return true;
     }
 
-    else if (testSum != initial) {
-      verdict = false;
+    else {
+      return false;
     }
-// Value returned for calling the method
-    return verdict;
 
   }
 
   public static void main(String[] args) {
 // To obtain input
     Scanner number = new Scanner(System.in);
+// Parameters Message
+    System.out.println("Please input a positive integer");
 // Setting variable testNum as input
     int testNum = number.nextInt();
+// Conditions to determine if input matches Parameters
+    if (testNum > 0) {
 // Print message
-    System.out.println("Test number (Must be integer): " + testNum);
+      System.out.println("Test number: " + testNum);
 // Creating instance
-    armstrong test = new armstrong();
+      armstrong test = new armstrong();
 // Calling testArmstrong() method
-    Boolean decision = test.testArmstrong(testNum);
+      Boolean decision = test.testArmstrong(testNum);
 // Message printed if true
-    if (decision == true) {
-      System.out.println("The integer " + testNum + " is an Armstrong number");
-    }
+      if (decision == true) {
+        System.out.println("The integer " + testNum + " is an Armstrong number");
+      }
 // Message printed if false
-    else if (decision == false) {
-      System.out.println("The integer " + testNum + " is not an Armstrong number");
+      else if (decision == false) {
+        System.out.println("The integer " + testNum + " is not an Armstrong number");
+      }
+    }
+// Message printed if input does not match parameters
+    else {
+      System.out.println("Wrong input!");
     }
 
   }
