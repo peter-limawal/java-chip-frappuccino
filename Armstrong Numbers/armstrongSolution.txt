@@ -2,6 +2,8 @@ Input:
 5
 
 Output:
+Please input a positive integer
+5
 Test number (Must be integer): 5
 The integer 5 is an Armstrong number
 
@@ -9,6 +11,8 @@ Input:
 14
 
 Output:
+Please input a positive integer
+14
 Test number (Must be integer): 14
 The integer 14 is not an Armstrong number
 
@@ -16,6 +20,8 @@ Input:
 153
 
 Output:
+Please input a positive integer
+153
 Test number (Must be integer): 153
 The integer 153 is an Armstrong number
 
@@ -23,6 +29,8 @@ Input:
 371
 
 Output:
+Please input a positive integer
+371
 Test number (Must be integer): 371
 The integer 371 is an Armstrong number
 
@@ -30,6 +38,8 @@ Input:
 888
 
 Output:
+Please input a positive integer
+888
 Test number (Must be integer): 888
 The integer 888 is not an Armstrong number
 
@@ -37,5 +47,15 @@ Input:
 1634
 
 Output:
+Please input a positive integer
+1634
 Test number (Must be integer): 1634
 The integer 1634 is an Armstrong number
+
+Input:
+-5
+
+Output:
+Please input a positive integer
+-5
+Wrong input!
