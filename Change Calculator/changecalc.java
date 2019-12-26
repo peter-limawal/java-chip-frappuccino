@@ -16,7 +16,11 @@ public class changecalc {
 
   public static void main(String[] args) {
 
-    
+    Scanner input = new Scanner(System.in);
+
+    System.out.println("Please insert amount of change");
+
+    Double change = input.nextDouble();
 
   }
 
