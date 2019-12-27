@@ -22,3 +22,5 @@ https://github.com/peter-limawal/learn-java/blob/master/Armstrong%20Numbers/arms
 
 ## [madlibs.java](https://github.com/peter-limawal/learn-java/blob/master/Mad%20Libs%20Story%20Maker/madlibs.java)
 https://github.com/peter-limawal/learn-java/blob/master/Mad%20Libs%20Story%20Maker/madlibs.txt
+
+## [mmm.java](https://github.com/peter-limawal/learn-java/blob/master/Mean,%20Median,%20and%20Mode/mmm.java)
