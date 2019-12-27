@@ -22,34 +22,25 @@ public class changecalc {
     Double dimes = 0.10;
     Double nickels = 0.05;
     Double pennies = 0.01;
-// Declaring variable i
-    int i = 1;
 // While loop for quarters
     while (change >= quarters) {
       change -= quarters;
-      coins[0] = i;
-      i++;
+      coins[0] += 1;
     }
-    i = 1;
 // While loop for dimes
     while (change >= dimes) {
       change -= dimes;
-      coins[1] = i;
-      i++;
+      coins[1] += 1;
     }
-    i = 1;
 // While loop for nickels
     while (change >= nickels) {
       change -= nickels;
-      coins[2] = i;
-      i++;
+      coins[2] += 1;
     }
-    i = 1;
-// While loop for pennies (THERE IS SOMETHING WRONG HERE)
+// While loop for pennies
     while (change >= pennies) {
       change -= pennies;
-      coins[3] = i;
-      i++;
+      coins[3] += 1;
     }
 // Return value for method
     return coins;
