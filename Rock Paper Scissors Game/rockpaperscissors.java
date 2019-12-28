@@ -12,13 +12,13 @@ Instructions:
 import java.util.Scanner;
 
 public class rockpaperscissors {
-
+// Declaring variables for methods
   String verdict;
   int player;
   String result;
-
+// Method to assign rock, paper, or scissors
   public String assign(int type) {
-
+// Switch to convert from int into String rps
     switch (type) {
       case 0:
         result = "rock";
@@ -30,13 +30,13 @@ public class rockpaperscissors {
         result = "scissors";
         break;
     }
-
+// Return statement of method
     return result;
 
   }
-
+// Method to battle between rock, paper, and scissors
   public String battle(String rps, int comp) {
-
+// Switch to convert String rps into int
     switch (rps) {
       case "rock":
         player = 0;
@@ -48,9 +48,9 @@ public class rockpaperscissors {
         player = 2;
         break;
     }
-
+// Rps algorithm
     int x = (player - comp + 3) % 3;
-
+// Switch to determine cases of win, loss, or draw
     switch (x) {
       case 1:
         verdict = "win";
@@ -62,23 +62,23 @@ public class rockpaperscissors {
         verdict = "draw";
         break;
     }
-
+// Return statement of method
     return verdict;
 
   }
 
   public static void main(String[] args) {
-
+// Creating instance
     rockpaperscissors object = new rockpaperscissors();
-
+// Declaring variables using input
     Scanner choice = new Scanner(System.in);
     String rps = choice.nextLine();
     rps = rps.toLowerCase();
-
+// Output statement to identify weapon chosen
     System.out.println("You have chosen: " + rps);
-
+// Random numeric generator
     int comp = (int) (Math.random() * 3);
-
+// Output statement for computer-generated weapon and verdict
     System.out.println("Computer has chosen: " + object.assign(comp));
     System.out.println("Verdict: " + object.battle(rps, comp));
 
