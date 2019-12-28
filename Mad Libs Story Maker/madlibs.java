@@ -20,7 +20,7 @@ public class madlibs {
   public static void main(String[] args) {
 
     Scanner input = new Scanner(System.in);
-
+// Declaring variables for each input
     String animal1 = input.nextLine();
     String place1 = input.nextLine();
     String name1 = input.nextLine();
@@ -30,7 +30,7 @@ public class madlibs {
     String noun3 = input.nextLine();
     String verb1 = input.nextLine();
     String verb2 = input.nextLine();
-
+// Outputting Madlibs story with variables
     System.out.print("Once, there lived a " + animal1 + " named " + name1 + ". ");
     System.out.print("He stayed with his owners, Mr. and Mrs. " + name2 + ". ");
     System.out.print("They pampered " + name1 + " like a " + noun1 + ". ");
