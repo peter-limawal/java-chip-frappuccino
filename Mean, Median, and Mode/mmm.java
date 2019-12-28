@@ -13,8 +13,22 @@ import java.util.*;
 
 public class mmm {
 
-  public static void main(String[] args) {
+  public int mean(Arraylist<Integer> numbers) {
+    
+  }
+
+  public int mode(ArrayList<Integer> numbers) {
 
   }
-  
+
+  public int median(ArrayList<Integer> numbers) {
+
+  }
+
+  public static void main(String[] args) {
+
+    Scanner number = new Scanner();
+
+  }
+
 }
