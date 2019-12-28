@@ -20,39 +20,39 @@ public class coinestimator {
   public static void main(String[] args) {
 
     Scanner coins = new Scanner(System.in);
-
+// Declaring variables for total weights of each coin
     double wPennies = coins.nextInt();
     double wNickels = coins.nextInt();
     double wDimes = coins.nextInt();
     double wQuarters = coins.nextInt();
-
+// Declaring variables for weights of each type of coin
     double penny = 2.500;
     double nickel = 5.000;
     double dime = 2.268;
     double quarter = 5.670;
-
+// Outputing weight of each type of coin
     System.out.println("Pennies: " + wPennies + "g");
     System.out.println("Nickels: " + wNickels + "g");
     System.out.println("Dimes: " + wDimes + "g");
     System.out.println("Quarters: " + wQuarters + "g");
-
+// Declaring variables for the number of each tupe of coin
     double nPennies = wPennies / penny;
     double nNickels = wNickels / nickel;
     double nDimes = wDimes / dime;
     double nQuarters = wQuarters / quarter;
-
+// Outputting the number of each tupe of coin
     System.out.println("Number of Pennies: " + Math.round(nPennies));
     System.out.println("Number of Nickels: " + Math.round(nNickels));
     System.out.println("Number of Dimes: " + Math.round(nDimes));
     System.out.println("Number of Quarters: " + Math.round(nQuarters));
-
+// Outputting the number of wrappers needed for each type of coin
     System.out.println("Penny Wrappers: " + Math.round(Math.floor(nPennies / 50)));
     System.out.println("Nickel Wrappers: " + Math.round(Math.floor(nNickels / 40)));
     System.out.println("Dime Wrappers: " + Math.round(Math.floor(nNickels / 50)));
     System.out.println("Quarter Wrappers: " + Math.round(Math.floor(nQuarters / 40)));
-
+// Declaring the total amount of money available
     double sum = (Math.round(nPennies) * 0.01) + (Math.round(nNickels) * 0.05) + (Math.round(nDimes) * 0.10) + (Math.round(nQuarters) * 0.25);
-
+// Outputting the total amount of money available
     System.out.println("You own approximately $" + sum);
 
   }
