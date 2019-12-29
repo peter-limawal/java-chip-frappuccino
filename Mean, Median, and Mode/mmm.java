@@ -33,8 +33,8 @@ public class mmm {
 // Creating ArrayList<Double> to hold numbers
     ArrayList<Double> numbers = new ArrayList<Double>();
 // Doubleroductory message
-    System.out.prDoubleln("Input as many numbers as you want.");
-    System.out.prDoubleln("When finished, press enter. (Leave a blank line)")
+    System.out.println("Input as many numbers as you want.");
+    System.out.println("When finished, press enter. (Leave a blank line)")
 // To obtain input for numbers
     Double num = number.nextDouble();
 
