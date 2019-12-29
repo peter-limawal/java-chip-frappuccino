@@ -14,7 +14,7 @@ import java.util.*;
 public class mmm {
 
   public int mean(Arraylist<Integer> numbers) {
-    
+
   }
 
   public int mode(ArrayList<Integer> numbers) {
@@ -28,6 +28,13 @@ public class mmm {
   public static void main(String[] args) {
 
     Scanner number = new Scanner();
+// Creating ArrayList<Integer> to hold numbers
+    ArrayList<Integer> numbers = new ArrayList<Integer>();
+// Introductory message
+    System.out.println("Input as many numbers as you want.");
+    System.out.println("When finished, press enter. (Leave a blank line)")
+// To obtain input for numbers
+    int num = number.nextInt();
 
   }
 
