@@ -13,28 +13,30 @@ import java.util.*;
 
 public class mmm {
 
-  public int mean(Arraylist<Integer> numbers) {
+  public Double mean(Arraylist<Double> numbers) {
+
+    return numbers / numbers.length;
 
   }
 
-  public int mode(ArrayList<Integer> numbers) {
+  public Double mode(ArrayList<Double> numbers) {
 
   }
 
-  public int median(ArrayList<Integer> numbers) {
+  public Double median(ArrayList<Double> numbers) {
 
   }
 
   public static void main(String[] args) {
 
     Scanner number = new Scanner();
-// Creating ArrayList<Integer> to hold numbers
-    ArrayList<Integer> numbers = new ArrayList<Integer>();
-// Introductory message
-    System.out.println("Input as many numbers as you want.");
-    System.out.println("When finished, press enter. (Leave a blank line)")
+// Creating ArrayList<Double> to hold numbers
+    ArrayList<Double> numbers = new ArrayList<Double>();
+// Doubleroductory message
+    System.out.prDoubleln("Input as many numbers as you want.");
+    System.out.prDoubleln("When finished, press enter. (Leave a blank line)")
 // To obtain input for numbers
-    int num = number.nextInt();
+    Double num = number.nextDouble();
 
   }
 
