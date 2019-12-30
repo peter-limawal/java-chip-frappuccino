@@ -13,30 +13,42 @@ import java.util.*;
 
 public class mmm {
 
-  public Double mean(Arraylist<Double> numbers) {
+  public int mean(ArrayList<Integer> numbers) {
 
-    return numbers / numbers.length;
+    int sum = 0;
 
-  }
+    for (int i = numbers.size() - 1; i >= 0; i--) {
+      sum += numbers.get(i);
+    }
 
-  public Double mode(ArrayList<Double> numbers) {
-
-  }
-
-  public Double median(ArrayList<Double> numbers) {
+    return sum / numbers.size();
 
   }
+
+  // public int mode(ArrayList<Integer> numbers) {
+  //
+  // }
+  //
+  // public int median(ArrayList<Integer> numbers) {
+  //
+  // }
 
   public static void main(String[] args) {
 
-    Scanner number = new Scanner();
-// Creating ArrayList<Double> to hold numbers
-    ArrayList<Double> numbers = new ArrayList<Double>();
-// Doubleroductory message
+    Scanner number = new Scanner(System.in);
+// Creating ArrayList<Integer> to hold numbers
+    ArrayList<Integer> numbers = new ArrayList<Integer>();
+// Introductory message
     System.out.println("Input as many numbers as you want.");
-    System.out.println("When finished, press enter. (Leave a blank line)")
-// To obtain input for numbers
-    Double num = number.nextDouble();
+    System.out.println("When finished, press enter. (Leave a blank line)");
+// To obtain input for numbers and adding into ArrayList
+    int num = number.nextInt();
+    numbers.add(num);
+// While loop to add more numbers
+    while (Integer.toString(num) != "") {
+      num = number.nextInt();
+      numbers.add(num);
+    }
 
   }
 
