@@ -23,7 +23,7 @@ public class guessinggame {
     Scanner input = new Scanner(System.in);
     int guess = input.nextInt();
 // Parameters for input
-    // if (guess < 1 || guess > 100) {
+    if (guess >= 1 && guess <= 100) {
 // While loop to obtain multiple inputs
       while (guess != random) {
 // If guess is higher than random
@@ -36,11 +36,11 @@ public class guessinggame {
         }
         guess = input.nextInt();
       }
-    // }
+    }
 // Error statement
-    // else {
-    //   System.out.println("Please input a number between 1 and 100");
-    // }
+    else {
+      System.out.println("Please input a number between 1 and 100");
+    }
 
   }
 
