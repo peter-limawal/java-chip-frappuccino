@@ -14,7 +14,34 @@ import java.util.*;
 public class guessinggame {
 
   public static void main(String[] args) {
-    
+// Creating random number between 1 and 100
+    int random = (int) (Math.random() * 100);
+    random += 1;
+// Introductory message
+    System.out.println("");
+// To obtain first input
+    Scanner input = new Scanner(System.in);
+    int guess = input.nextInt();
+// Parameters for input
+    // if (guess < 1 || guess > 100) {
+// While loop to obtain multiple inputs
+      while (guess != random) {
+// If guess is higher than random
+        if (guess > random) {
+          System.out.println("Lower!");
+        }
+// If guess is lower than random
+        else if (guess < random) {
+          System.out.println("Higher!");
+        }
+        guess = input.nextInt();
+      }
+    // }
+// Error statement
+    // else {
+    //   System.out.println("Please input a number between 1 and 100");
+    // }
+
   }
 
 }
