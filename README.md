@@ -26,3 +26,5 @@ https://github.com/peter-limawal/learn-java/blob/master/Mad%20Libs%20Story%20Mak
 ## [mmm.java](https://github.com/peter-limawal/learn-java/blob/master/Mean,%20Median,%20and%20Mode/mmm.java)
 
 ## [guessinggame.java](https://github.com/peter-limawal/learn-java/blob/master/Higher%20Lower%20Guessing%20Game/guessinggame.java)
+
+## [multiplication.java](https://github.com/peter-limawal/learn-java/blob/master/Multiplication%20Table/multiplication.java)
