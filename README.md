@@ -28,3 +28,5 @@ https://github.com/peter-limawal/learn-java/blob/master/Mad%20Libs%20Story%20Mak
 ## [guessinggame.java](https://github.com/peter-limawal/learn-java/blob/master/Higher%20Lower%20Guessing%20Game/guessinggame.java)
 
 ## [multiplication.java](https://github.com/peter-limawal/learn-java/blob/master/Multiplication%20Table/multiplication.java)
+
+## [fibonacci.java](https://github.com/peter-limawal/learn-java/blob/master/Fibonacci%20Sequence/fibonacci.java)
