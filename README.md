@@ -41,3 +41,5 @@ https://github.com/peter-limawal/learn-java/blob/master/Mad%20Libs%20Story%20Mak
 ## [menucalc.java](https://github.com/peter-limawal/learn-java/blob/master/Menu%20Calculator/menucalc.java)
 
 ## [reservation.java](https://github.com/peter-limawal/learn-java/blob/master/Seat%20Reservation/reservation.java)
+
+## [dice.java](https://github.com/peter-limawal/learn-java/blob/master/Dice%20Rolling%20Simulator/dice.java)
