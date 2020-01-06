@@ -11,23 +11,23 @@ import java.util.*;
 public class fibonacci {
 
   public static void main(String[] args) {
-
+// Creating ArrayList to print sequence
     ArrayList<Integer> sequence = new ArrayList<Integer>();
     Scanner input = new Scanner(System.in);
-
+// To obtain input and setting variables
     System.out.println("Enter n");
     int n = input.nextInt();
     int x = 0;
     int y = 1;
-
+// For loop to obtain fibonacci
     for (int i = n; i > 0; i--) {
       int z = x + y;
       x = y;
       y = z;
-
+// Adding the final value of x from each loop to ArrayList
       sequence.add(x);
     }
-
+// Final output printed
     System.out.println(sequence);
     System.out.println("Term number " + n + " in the fibonacci sequence is: " + x);
 
