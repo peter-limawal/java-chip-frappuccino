@@ -9,8 +9,8 @@ https://github.com/jorgegonzalez/beginner-projects
 
 Solutions posted below
 
-## [99bottles.java](https://github.com/peter-limawal/learn-java/blob/master/99%20Bottles/99bottles.java)
-https://github.com/peter-limawal/learn-java/blob/master/99%20Bottles/99bottlesSolution.txt
+## [99bottles.java](https://github.com/peter-limawal/learn-java/blob/master/99%20Bottles/bottles.java)
+https://github.com/peter-limawal/learn-java/blob/master/99%20Bottles/bottlesSolution.txt
 
 ## [armstrong.java](https://github.com/peter-limawal/learn-java/blob/master/Armstrong%20Numbers/armstrong.java)
 https://github.com/peter-limawal/learn-java/blob/master/Armstrong%20Numbers/armstrongSolution.txt
@@ -33,6 +33,7 @@ https://github.com/peter-limawal/learn-java/blob/master/Mad%20Libs%20Story%20Mak
 ## [multiplication.java](https://github.com/peter-limawal/learn-java/blob/master/Multiplication%20Table/multiplication.java)
 
 ## [fibonacci.java](https://github.com/peter-limawal/learn-java/blob/master/Fibonacci%20Sequence/fibonacci.java)
+https://github.com/peter-limawal/learn-java/blob/master/Fibonacci%20Sequence/fibonacciSolution.txt
 
 ## [basejumper.java](https://github.com/peter-limawal/learn-java/blob/master/Base%20Jumper/basejumper.java)
 
