@@ -14,22 +14,30 @@ public class fibonacci {
 // Creating ArrayList to print sequence
     ArrayList<Integer> sequence = new ArrayList<Integer>();
     Scanner input = new Scanner(System.in);
-// To obtain input and setting variables
+// To obtain input
     System.out.println("Enter n");
     int n = input.nextInt();
-    int x = 0;
-    int y = 1;
+// Input parameters
+    if (n > 0) {
+// Setting variables
+      int x = 0;
+      int y = 1;
 // For loop to obtain fibonacci
-    for (int i = n; i > 0; i--) {
-      int z = x + y;
-      x = y;
-      y = z;
+      for (int i = n; i > 0; i--) {
+        int z = x + y;
+        x = y;
+        y = z;
 // Adding the final value of x from each loop to ArrayList
-      sequence.add(x);
-    }
+        sequence.add(x);
+      }
 // Final output printed
-    System.out.println(sequence);
-    System.out.println("Term number " + n + " in the fibonacci sequence is: " + x);
+      System.out.println(sequence);
+      System.out.println("Term number " + n + " in the fibonacci sequence is: " + x);
+    }
+// Else if input is wrong
+    else {
+      System.out.println("Please input a valid 'n' value! (Positive integers)");
+    }
 
   }
 
