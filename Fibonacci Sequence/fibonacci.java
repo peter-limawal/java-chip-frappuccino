@@ -15,7 +15,7 @@ public class fibonacci {
     ArrayList<Integer> sequence = new ArrayList<Integer>();
     Scanner input = new Scanner(System.in);
 // To obtain input
-    System.out.println("Enter n");
+    System.out.println("Enter n:");
     int n = input.nextInt();
 // Input parameters
     if (n > 0) {
