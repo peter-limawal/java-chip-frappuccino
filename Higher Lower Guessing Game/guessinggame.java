@@ -18,8 +18,9 @@ public class guessinggame {
     int random = (int) (Math.random() * 100);
     random += 1;
 // Introductory message
+    System.out.println("Welcome to 'Higher Lower Guessing Game'");
     System.out.println("The computer has generated a random number between 1 - 100.");
-    System.out.println("Your task is to guess what the number is.");
+    System.out.println("Your task is to guess what that number is.");
     System.out.println("The computer will indicate if the number you've chosen is higher or lower than the one generated.");
     System.out.println("Happy hunting!");
 // To obtain first input
