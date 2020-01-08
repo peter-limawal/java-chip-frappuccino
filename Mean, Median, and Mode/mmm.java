@@ -40,14 +40,18 @@ public class mmm {
     ArrayList<Integer> numbers = new ArrayList<Integer>();
 // Introductory message
     System.out.println("Input as many numbers as you want.");
-    System.out.println("When finished, press enter. (Leave a blank line)");
+    System.out.println("When finished, press enter. (Type 'done')");
 // To obtain input for numbers and adding into ArrayList
-    int num = number.nextInt();
+    String numS = number.nextLine();
+    int num = Integer.parseInt(numS);
     numbers.add(num);
 // While loop to add more numbers
-    while (Integer.toString(num) != "") {
-      num = number.nextInt();
-      numbers.add(num);
+    while (numS != "done") {
+      numS = number.nextLine();
+      if (numS != "done") {
+        num = Integer.parseInt(numS);
+        numbers.add(num);
+      }
     }
 
   }
