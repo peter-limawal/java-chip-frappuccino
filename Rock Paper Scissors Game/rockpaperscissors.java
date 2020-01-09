@@ -70,6 +70,9 @@ public class rockpaperscissors {
   public static void main(String[] args) {
 // Creating instance
     rockpaperscissors object = new rockpaperscissors();
+// Intro message
+    System.out.println("Rock Paper Scissors Game");
+    System.out.println("Choose rock, paper, or scissors!");
 // Declaring variables using input
     Scanner choice = new Scanner(System.in);
     String rps = choice.nextLine();
