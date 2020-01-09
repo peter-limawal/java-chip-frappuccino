@@ -14,8 +14,7 @@ Instructions:
     3. play again
     4. quit (this must close the window)
 */
-import java.util.Scanner;
-import java.util.ArrayList;
+import java.util.*;
 
 public class magic8ball {
 // Method to generate random answers
