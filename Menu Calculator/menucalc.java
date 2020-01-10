@@ -27,8 +27,18 @@ import java.util.*;
 
 public class menucalc {
 
+  Double chickenStrips = 3.50;
+  Double frenchFries = 2.50;
+  Double hamburger = 4.00;
+  Double hotdog = 3.50;
+  Double largeDrink = 1.75;
+  Double mediumDrink = 1.50;
+  Double milkShake = 2.25;
+  Double salad = 3.75;
+  Double smallDrink = 1.25;
+
   public static void main(String[] args) {
-    
+
   }
 
 }
