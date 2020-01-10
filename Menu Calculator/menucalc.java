@@ -27,7 +27,7 @@ import java.util.*;
 
 public class menucalc {
 
-  Double item;
+  double item;
   String reg;
 
   menucalc(Double menuItem, String regNum) {
@@ -38,7 +38,7 @@ public class menucalc {
   }
 
   public static void main(String[] args) {
-    
+
     menucalc chickenStrips = new menucalc(3.50, "1");
     menucalc frenchFries = new menucalc(2.50, "2");
     menucalc hamburger = new menucalc(4.00, "3");
