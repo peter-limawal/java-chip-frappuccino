@@ -36,7 +36,14 @@ public class menucalc {
     this.reg = regNum;
 
   }
+// Converting numbers in ArrayList into menu items
+  public double convert(ArrayList<String> regNums) {
 
+    if (this.reg == regNums.get(i)) {
+      
+    }
+
+  }
   public static void main(String[] args) {
 // Creating instances for each menu
     menucalc chickenStrips = new menucalc(3.50, "1");
@@ -60,6 +67,7 @@ public class menucalc {
       orders.add(Character.toString(order.charAt(x)));
       x++;
     }
+
   }
 
 }
