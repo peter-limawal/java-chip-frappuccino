@@ -29,7 +29,7 @@ public class menucalc {
 
   double item;
   String reg;
-  
+
   menucalc(Double menuItem, String regNum) {
 
     this.item = menuItem;
@@ -48,11 +48,18 @@ public class menucalc {
     menucalc milkShake = new menucalc(2.25, "7");
     menucalc salad = new menucalc(3.75, "8");
     menucalc smallDrink = new menucalc(1.25, "9");
-
-    Scanner input = new Scanner();
-
-    int order = input.nextInt();
-
+// Scanner for input
+    Scanner input = new Scanner(System.in);
+// Obtaining input for order and finding length
+    String order = input.nextLine();
+    int length = order.length();
+// Creating ArrayList for orders
+    ArrayList<String> orders = new ArrayList<String>();
+    int x = 0;
+    while (x < length) {
+      orders.add(Character.toString(order.charAt(x)));
+      x++;
+    }
   }
 
 }
