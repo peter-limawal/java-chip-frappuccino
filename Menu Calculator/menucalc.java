@@ -37,13 +37,13 @@ public class menucalc {
 
   }
 // Converting numbers in ArrayList into menu items
-  public double convert(ArrayList<String> regNums) {
-
-    for (int i = 0; i < regNums.length(); i++) {
-      if (this.reg == regNums.get(i)) {
-
-      }
-    }
+  // public double convert(ArrayList<String> regNums) {
+  //
+  //   for (int i = 0; i < regNums.length(); i++) {
+  //     if (this.reg == regNums.get(i)) {
+  //
+  //     }
+  //   }
 
   }
   public static void main(String[] args) {
@@ -69,6 +69,7 @@ public class menucalc {
       orders.add(Character.toString(order.charAt(x)));
       x++;
     }
+    System.out.println(orders);
 
   }
 
