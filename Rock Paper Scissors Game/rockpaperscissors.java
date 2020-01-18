@@ -79,8 +79,9 @@ public class rockpaperscissors {
     String answer = choice.nextLine();
     answer = answer.toLowerCase();
 // While loop for multiple inputs
-    while (answer == "yes") {
+    while (answer.equals("yes")) {
 // Obtain user input rps
+      System.out.println("Select a weapon (rock/paper/scissors)");
       rps = choice.nextLine();
       rps = rps.toLowerCase();
 // Output statement to identify weapon chosen
@@ -97,7 +98,7 @@ public class rockpaperscissors {
       answer = answer.toLowerCase();
     }
 // Output if answer is no
-    if (answer == "no") {
+    if (answer.equals("no")) {
       System.out.println("Good game!");
     }
 
