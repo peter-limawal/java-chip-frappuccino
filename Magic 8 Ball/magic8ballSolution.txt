@@ -1,0 +1,33 @@
+Input:
+Yes
+Is it possible?
+No
+
+Output:
+Would you like to ask the Magic 8 Ball a question? (Yes/No)
+Yes
+
+Tell me...
+Is it possible?
+Thinking...
+Most likely.
+
+Play another game? (Yes/No)
+No
+See you next time!
+
+Input:
+No
+
+Output:
+Would you like to ask the Magic 8 Ball a question? (Yes/No)
+No
+See you next time!
+
+Input:
+Maybe
+
+Output:
+Would you like to ask the Magic 8 Ball a question? (Yes/No)
+Maybe
+ERROR! Please enter a valid answer!
