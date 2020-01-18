@@ -69,6 +69,7 @@ public class magic8ball {
 // Creating while loop
     while (answer.equals("yes")) {
 // Setting variable question as input
+      System.out.println("\nTell me...");
       String question = q.nextLine();
 // Output printed with the 20 answers
       System.out.println("Thinking...");
@@ -81,6 +82,10 @@ public class magic8ball {
 // Output if answer is no
     if (answer.equals("no")) {
       System.out.println("See you next time!");
+    }
+// Output if answer is neither yes/no
+    else {
+      System.out.println("ERROR! Please enter a valid answer!");
     }
   }
 }
