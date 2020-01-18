@@ -1,0 +1,64 @@
+Input:
+Yes
+Rock
+No
+
+Output:
+Play game? (Yes/No)
+Yes
+
+Select a weapon (rock/paper/scissors)
+Rock
+You have chosen: rock
+Computer has chosen: rock
+Verdict: draw
+
+Play another game? (Yes/No)
+No
+Good game!
+
+Input:
+Yes
+Paper
+Yes
+Scissors
+No
+
+Output:
+Play game? (Yes/No)
+Yes
+
+Select a weapon (rock/paper/scissors)
+Paper
+You have chosen: paper
+Computer has chosen: paper
+Verdict: draw
+
+Play another game? (Yes/No)
+Yes
+
+Select a weapon (rock/paper/scissors)
+Scissors
+You have chosen: scissors
+Computer has chosen: paper
+Verdict: win
+
+Play another game? (Yes/No)
+No
+Good game!
+
+Input:
+No
+
+Output:
+Play game? (Yes/No)
+No
+Good game!
+
+Input:
+Maybe
+
+Output:
+Play game? (Yes/No)
+Maybe
+ERROR! Please enter a valid answer!
