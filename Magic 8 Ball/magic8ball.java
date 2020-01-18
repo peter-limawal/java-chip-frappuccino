@@ -62,10 +62,25 @@ public class magic8ball {
     magic8ball object = new magic8ball();
 // To obtain input
     Scanner q = new Scanner(System.in);
+// Initial question for input
+    System.out.println("Would you like to ask the Magic 8 Ball a question? (Yes/No)");
+    String answer = q.nextLine();
+    answer = answer.toLowerCase();
+// Creating while loop
+    while (answer.equals("yes")) {
 // Setting variable question as input
-    String question = q.nextLine();
+      String question = q.nextLine();
 // Output printed with the 20 answers
-    System.out.println("Thinking...");
-    System.out.println(object.response(object.random()));
+      System.out.println("Thinking...");
+      System.out.println(object.response(object.random()));
+// Question for another input
+      System.out.println("\nPlay another game? (Yes/No)");
+      answer = q.nextLine();
+      answer = answer.toLowerCase();
+    }
+// Output if answer is no
+    if (answer.equals("no")) {
+      System.out.println("See you next time!");
+    }
   }
 }

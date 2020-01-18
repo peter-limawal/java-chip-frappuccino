@@ -70,20 +70,37 @@ public class rockpaperscissors {
   public static void main(String[] args) {
 // Creating instance
     rockpaperscissors object = new rockpaperscissors();
-// Intro message
-    System.out.println("Rock Paper Scissors Game");
-    System.out.println("Choose rock, paper, or scissors!");
-// Declaring variables using input
+// Declaring variables and scanning input
     Scanner choice = new Scanner(System.in);
-    String rps = choice.nextLine();
-    rps = rps.toLowerCase();
+    String rps;
+    int comp;
+// Initial question for input
+    System.out.println("Play game? (Yes/No)");
+    String answer = choice.nextLine();
+    answer = answer.toLowerCase();
+// While loop for multiple inputs
+    while (answer.equals("yes")) {
+// Obtain user input rps
+      System.out.println("Select a weapon (rock/paper/scissors)");
+      rps = choice.nextLine();
+      rps = rps.toLowerCase();
 // Output statement to identify weapon chosen
-    System.out.println("You have chosen: " + rps);
+      System.out.println("You have chosen: " + rps);
 // Random numeric generator
-    int comp = (int) (Math.random() * 3);
+      comp = (int) (Math.random() * 3);
 // Output statement for computer-generated weapon and verdict
-    System.out.println("Computer has chosen: " + object.assign(comp));
-    System.out.println("Verdict: " + object.battle(rps, comp));
+      System.out.println("Computer has chosen: " + object.assign(comp));
+      System.out.println("Verdict: " + object.battle(rps, comp));
+// Question for another game
+      System.out.println();
+      System.out.println("Play another game? (Yes/No)");
+      answer = choice.nextLine();
+      answer = answer.toLowerCase();
+    }
+// Output if answer is no
+    if (answer.equals("no")) {
+      System.out.println("Good game!");
+    }
 
   }
 
