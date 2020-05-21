@@ -1,5 +1,5 @@
 # Learn Java
-Creating simple projects to learn java
+Creating simple projects to learn Java
 
 Compiler version:
 Java 13.0.1
