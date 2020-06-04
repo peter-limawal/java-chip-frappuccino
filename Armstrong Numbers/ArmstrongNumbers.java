@@ -8,9 +8,9 @@ Instructions:
 */
 import java.util.*;
 
-public class armstrong {
-// Method to determine armstrong number
-  public Boolean testArmstrong(int num) {
+public class ArmstrongNumbers {
+
+  private static boolean testArmstrong(int num) {
 // Declaring variables for armstrong test
     int initial = num;
     int length = (int) (Math.log10(num) + 1);
@@ -22,45 +22,31 @@ public class armstrong {
       num = (num - a) / 10;
     }
 // Conditions to determine if armstrong number or not
-    if (testSum == initial) {
+    if (testSum == initial)
       return true;
-    }
-
-    else {
-      return false;
-    }
-
-  }
+    return false;
+  } // testArmstrong method
 
   public static void main(String[] args) {
 // To obtain input
-    Scanner number = new Scanner(System.in);
-// Parameters Message
-    System.out.println("Please input a positive integer");
+    Scanner keyboard = new Scanner(System.in);
 // Setting variable testNum as input
-    int testNum = number.nextInt();
+    System.out.print("Please input a positive integer: ");
+    int testNum = keyboard.nextInt();
 // Conditions to determine if input matches Parameters
     if (testNum > 0) {
-// Print message
-      System.out.println("Test number: " + testNum);
-// Creating instance
-      armstrong test = new armstrong();
 // Calling testArmstrong() method
-      Boolean decision = test.testArmstrong(testNum);
+      boolean decision = testArmstrong(testNum);
 // Message printed if true
-      if (decision == true) {
-        System.out.println("The integer " + testNum + " is an Armstrong number");
-      }
+      if (decision)
+        System.out.print("\nThe integer " + testNum + " is an Armstrong number");
 // Message printed if false
-      else if (decision == false) {
-        System.out.println("The integer " + testNum + " is not an Armstrong number");
-      }
+      else if (!decision)
+        System.out.print("\nThe integer " + testNum + " is not an Armstrong number");
     }
 // Message printed if input does not match parameters
-    else {
-      System.out.println("Wrong input!");
-    }
+    else
+      throw new IllegalArgumentException("Wrong input! Must be positive integer!");
+  } // Main method
 
-  }
-
-}
+} // End class

@@ -1,0 +1,21 @@
+Please input a positive integer: 1634
+
+The integer 1634 is an Armstrong number
+
+--------------------------------------------------------------------------------
+
+Please input a positive integer: 15
+
+The integer 15 is not an Armstrong number
+
+--------------------------------------------------------------------------------
+
+Please input a positive integer: 153
+
+The integer 153 is an Armstrong number
+
+--------------------------------------------------------------------------------
+
+Please input a positive integer: -16
+Exception in thread "main" java.lang.IllegalArgumentException: Wrong input! Must be positive integer!
+        at ArmstrongNumbers.main(ArmstrongNumbers.java:49)
