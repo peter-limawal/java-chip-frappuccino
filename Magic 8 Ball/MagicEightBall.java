@@ -67,12 +67,11 @@ public class MagicEightBall {
       answer = keyboard.nextLine();
     }
 // Output if answer is no
-    if (answer.equalsIgnoreCase("no")) {
+    if (answer.equalsIgnoreCase("no"))
       System.out.print("See you next time!");
-    }
 // Output if answer is neither yes/no
-    else {
+    else
       throw new IllegalArgumentException("ERROR! Please enter a valid answer!");
-    }
-  }
-}
+  } // Main method
+  
+} // End class
