@@ -13,7 +13,7 @@ Solutions posted below
 [NinetyNineBottlesSolution.txt](https://github.com/peter-limawal/learn-java/blob/master/99%20Bottles/NinetyNineBottlesSolution.txt)
 
 ## [Armstrong Numbers](https://github.com/peter-limawal/learn-java/blob/master/Armstrong%20Numbers/ArmstrongNumbers.java)
-[ArmstrongNumbersSolution.txt]https://github.com/peter-limawal/learn-java/blob/master/Armstrong%20Numbers/ArmstrongNumbersSolution.txt
+[ArmstrongNumbersSolution.txt](https://github.com/peter-limawal/learn-java/blob/master/Armstrong%20Numbers/ArmstrongNumbersSolution.txt)
 
 ## [magic8ball.java](https://github.com/peter-limawal/learn-java/blob/master/Magic%208%20Ball/magic8ball.java)
 https://github.com/peter-limawal/learn-java/blob/master/Magic%208%20Ball/magic8ballSolution.txt
