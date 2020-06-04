@@ -10,10 +10,10 @@ https://github.com/jorgegonzalez/beginner-projects
 Solutions posted below
 
 ## [99 Bottles](https://github.com/peter-limawal/learn-java/blob/master/99%20Bottles/NinetyNineBottles.java)
-[99 Bottles Solution](https://github.com/peter-limawal/learn-java/blob/master/99%20Bottles/NinetyNineBottlesSolution.txt)
+[NinetyNineBottlesSolution.txt](https://github.com/peter-limawal/learn-java/blob/master/99%20Bottles/NinetyNineBottlesSolution.txt)
 
-## [armstrong.java](https://github.com/peter-limawal/learn-java/blob/master/Armstrong%20Numbers/armstrong.java)
-https://github.com/peter-limawal/learn-java/blob/master/Armstrong%20Numbers/armstrongSolution.txt
+## [Armstrong Numbers](https://github.com/peter-limawal/learn-java/blob/master/Armstrong%20Numbers/ArmstrongNumbers.java)
+[ArmstrongNumbersSolution.txt]https://github.com/peter-limawal/learn-java/blob/master/Armstrong%20Numbers/ArmstrongNumbersSolution.txt
 
 ## [magic8ball.java](https://github.com/peter-limawal/learn-java/blob/master/Magic%208%20Ball/magic8ball.java)
 https://github.com/peter-limawal/learn-java/blob/master/Magic%208%20Ball/magic8ballSolution.txt
