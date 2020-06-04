@@ -15,7 +15,7 @@ Solutions posted below
 ## [Armstrong Numbers](https://github.com/peter-limawal/learn-java/blob/master/Armstrong%20Numbers/ArmstrongNumbers.java)
 [ArmstrongNumbersSolution.txt](https://github.com/peter-limawal/learn-java/blob/master/Armstrong%20Numbers/ArmstrongNumbersSolution.txt)
 
-## [Magic 8 Ball](https://github.com/peter-limawal/learn-java/blob/master/Magic%20Eight%20Ball/MagicEightBall.java)
+## [Magic 8 Ball](https://github.com/peter-limawal/learn-java/blob/master/Magic%208%20Ball/MagicEightBall.java)
 [MagicEightBallSolution.txt](https://github.com/peter-limawal/learn-java/blob/master/Magic%208%20Ball/MagicEightBallSolution.txt)
 
 ## [Pythagorean Triples Checker](https://github.com/peter-limawal/learn-java/blob/master/Pythagorean%20Triples%20Checker/PythagoreanTriplesChecker.java)
