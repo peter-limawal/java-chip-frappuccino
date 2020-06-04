@@ -23,7 +23,7 @@ public class PythagoreanTriplesChecker {
 // To obtain input
     Scanner keyboard = new Scanner(System.in);
 // Obtaining verdict input
-    System.out.println("Use pythagorean triples checker? (yes/no): ");
+    System.out.print("Use pythagorean triples checker? (Yes/No): ");
     String verdict = keyboard.nextLine();
 // Setting repeat variable depending on verdict
     if (verdict.equalsIgnoreCase("yes"))
@@ -45,7 +45,7 @@ public class PythagoreanTriplesChecker {
 // Output
       System.out.println("Is a Pythagorean Triple?: " + checker(sides));
 // Reobtaining verdict input
-      System.out.println("\nUse pythagorean triples checker again? (yes/no): ");
+      System.out.print("\nUse pythagorean triples checker again? (Yes/No): ");
       verdict = keyboard.nextLine();
 // Resetting repeat variable depending on verdict
       if (verdict.equalsIgnoreCase("yes"))
