@@ -9,7 +9,7 @@ https://github.com/jorgegonzalez/beginner-projects
 
 Solutions posted below
 
-## [bottles.java](https://github.com/peter-limawal/learn-java/blob/master/99%20Bottles/bottles.java)
+## [99 Bottles](https://github.com/peter-limawal/learn-java/blob/master/99%20Bottles/NinetyNineBottles.java)
 https://github.com/peter-limawal/learn-java/blob/master/99%20Bottles/bottlesSolution.txt
 
 ## [armstrong.java](https://github.com/peter-limawal/learn-java/blob/master/Armstrong%20Numbers/armstrong.java)
