@@ -16,9 +16,9 @@ Instructions:
 */
 import java.util.*;
 
-public class magic8ball {
-// Method to generate random answers
-  public String response(int i) {
+public class MagicEightBall {
+
+  private static String response() {
 // Creating ArrayList for possible answers
     ArrayList<String> answers = new ArrayList<String>();
 // Affirmative answers
@@ -44,48 +44,35 @@ public class magic8ball {
     answers.add("My sources say no.");
     answers.add("Outlook not so good.");
     answers.add("Very doubtful.");
-// Return of method
-    return answers.get(i);
-  }
-// Method to generate random number between 0 - 19
-  public int random() {
-// Defining range
-    int max = 19;
-    int min = 0;
-    int range = max - min + 1;
-// Generating numbers
-    return (int) (Math.random() * range);
-  }
+// Return of method with random answer
+    return answers.get((int) (Math.random() * answers.size()));
+  } // response method
 
   public static void main(String[] args) {
-// Creating instance
-    magic8ball object = new magic8ball();
 // To obtain input
-    Scanner q = new Scanner(System.in);
+    Scanner keyboard = new Scanner(System.in);
 // Initial question for input
-    System.out.println("Would you like to ask the Magic 8 Ball a question? (Yes/No)");
-    String answer = q.nextLine();
-    answer = answer.toLowerCase();
+    System.out.print("Would you like to ask the Magic 8 Ball a question? (Yes/No): ");
+    String answer = keyboard.nextLine();
 // Creating while loop
-    while (answer.equals("yes")) {
+    while (answer.equalsIgnoreCase("yes")) {
 // Setting variable question as input
       System.out.println("\nTell me...");
-      String question = q.nextLine();
+      String question = keyboard.nextLine();
 // Output printed with the 20 answers
-      System.out.println("Thinking...");
-      System.out.println(object.response(object.random()));
+      System.out.println("\nThinking...");
+      System.out.println(response());
 // Question for another input
-      System.out.println("\nPlay another game? (Yes/No)");
-      answer = q.nextLine();
-      answer = answer.toLowerCase();
+      System.out.print("\nPlay another game? (Yes/No): ");
+      answer = keyboard.nextLine();
     }
 // Output if answer is no
-    if (answer.equals("no")) {
-      System.out.println("See you next time!");
+    if (answer.equalsIgnoreCase("no")) {
+      System.out.print("See you next time!");
     }
 // Output if answer is neither yes/no
     else {
-      System.out.println("ERROR! Please enter a valid answer!");
+      throw new IllegalArgumentException("ERROR! Please enter a valid answer!");
     }
   }
 }

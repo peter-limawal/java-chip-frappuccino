@@ -1,0 +1,37 @@
+Would you like to ask the Magic 8 Ball a question? (Yes/No): Yes
+
+Tell me...
+Will it rain today?
+
+Thinking...
+Concentrate and ask again.
+
+Play another game? (Yes/No): Yes
+
+Tell me...
+Will it rain tomorrow?
+
+Thinking...
+Outlook not so good.
+
+Play another game? (Yes/No): Yes
+
+Tell me...
+Can I eat ice cream today?
+
+Thinking...
+You may rely on it.
+
+Play another game? (Yes/No): No
+See you next time!
+
+--------------------------------------------------------------------------------
+
+Would you like to ask the Magic 8 Ball a question? (Yes/No): No
+See you next time!
+
+--------------------------------------------------------------------------------
+
+Would you like to ask the Magic 8 Ball a question? (Yes/No): Maybe
+Exception in thread "main" java.lang.IllegalArgumentException: ERROR! Please enter a valid answer!
+        at Magic8Ball.main(Magic8Ball.java:75)
