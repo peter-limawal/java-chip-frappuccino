@@ -19,6 +19,7 @@ Solutions posted below
 [MagicEightBallSolution.txt](https://github.com/peter-limawal/learn-java/blob/master/Magic%208%20Ball/MagicEightBallSolution.txt)
 
 ## [Pythagorean Triples Checker](https://github.com/peter-limawal/learn-java/blob/master/Pythagorean%20Triples%20Checker/PythagoreanTriplesChecker.java)
+[PythagoreanTriplesCheckerSolution.txt](https://github.com/peter-limawal/learn-java/blob/master/Pythagorean%20Triples%20Checker/PythagoreanTriplesCheckerSolution.txt)
 
 ## [rockpaperscissors.java](https://github.com/peter-limawal/learn-java/blob/master/Rock%20Paper%20Scissors%20Game/rockpaperscissors.java)
 https://github.com/peter-limawal/learn-java/blob/master/Rock%20Paper%20Scissors%20Game/rockpaperscissorsSolution.txt
