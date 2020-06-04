@@ -1,0 +1,31 @@
+Use pythagorean triples checker? (Yes/No): Yes
+Side 1: 3
+Side 2: 4
+Side 3: 5
+Is a Pythagorean Triple?: true
+
+Use pythagorean triples checker again? (Yes/No): Yes
+Side 1: 7
+Side 2: 24
+Side 3: 25
+Is a Pythagorean Triple?: true
+
+Use pythagorean triples checker again? (Yes/No): Yes
+Side 1: 14
+Side 2: 15
+Side 3: 16
+Is a Pythagorean Triple?: false
+
+Use pythagorean triples checker again? (Yes/No): No
+Goodbye!
+
+--------------------------------------------------------------------------------
+
+Use pythagorean triples checker? (Yes/No): No
+Goodbye!
+
+--------------------------------------------------------------------------------
+
+Use pythagorean triples checker? (Yes/No): Maybe
+Exception in thread "main" java.lang.IllegalArgumentException: Answer yes or no!
+        at PythagoreanTriplesChecker.main(PythagoreanTriplesChecker.java:35)
