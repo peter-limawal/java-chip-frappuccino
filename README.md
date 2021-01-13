@@ -1,8 +1,5 @@
 # Learn Java
-Creating simple projects to learn Java
-
-Compiler version:
-Java 13.0.1
+A list of mini-projects written in Java
 
 Project ideas by: JorgeGonzalez
 https://github.com/jorgegonzalez/beginner-projects
