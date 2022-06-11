@@ -3,13 +3,13 @@ Instructions:
 - Create a rock-paper-scissors game.
 - Ask the player to pick rock, paper or scissors.
 - Have the computer chose its move.
-- Compare the keyboards and decide who wins.
+- Compare the choices and decide who wins.
 - Print the results.
   ~ Subgoals:
   ~ Give the player the option to play again.
   ~ Keep a record of the score (e.g. Player: 3 / Computer: 6).
 */
-import java.util.*;
+import java.util.Scanner;
 
 public class rockpaperscissors {
 // Declaring variables for methods
@@ -17,7 +17,7 @@ public class rockpaperscissors {
   int player;
   String result;
 // Method to assign rock, paper, or scissors
-  private static String assign(int type) {
+  public String assign(int type) {
 // Switch to convert from int into String rps
     switch (type) {
       case 0:
@@ -35,7 +35,7 @@ public class rockpaperscissors {
 
   }
 // Method to battle between rock, paper, and scissors
-  private static String battle(String rps, int comp) {
+  public String battle(String rps, int comp) {
 // Switch to convert String rps into int
     switch (rps) {
       case "rock":
@@ -68,32 +68,37 @@ public class rockpaperscissors {
   }
 
   public static void main(String[] args) {
+// Creating instance
+    rockpaperscissors object = new rockpaperscissors();
 // Declaring variables and scanning input
-    Scanner keyboard = new Scanner(System.in);
+    Scanner choice = new Scanner(System.in);
     String rps;
     int comp;
 // Initial question for input
     System.out.println("Play game? (Yes/No)");
-    String answer = keyboard.nextLine();
+    String answer = choice.nextLine();
+    answer = answer.toLowerCase();
 // While loop for multiple inputs
-    while (answer.equalsIgnoreCase("yes")) {
+    while (answer.equals("yes")) {
 // Obtain user input rps
       System.out.println("\nSelect a weapon (rock/paper/scissors)");
-      rps = keyboard.nextLine();
+      rps = choice.nextLine();
       rps = rps.toLowerCase();
 // Output statement to identify weapon chosen
       System.out.println("You have chosen: " + rps);
 // Random numeric generator
       comp = (int) (Math.random() * 3);
 // Output statement for computer-generated weapon and verdict
-      System.out.println("Computer has chosen: " + assign(comp));
-      System.out.println("Verdict: " + battle(rps, comp));
+      System.out.println("Computer has chosen: " + object.assign(comp));
+      System.out.println("Verdict: " + object.battle(rps, comp));
 // Question for another game
-      System.out.println("\nPlay another game? (Yes/No)");
-      answer = keyboard.nextLine();
+      System.out.println();
+      System.out.println("Play another game? (Yes/No)");
+      answer = choice.nextLine();
+      answer = answer.toLowerCase();
     }
 // Output if answer is no
-    if (answer.equalsIgnoreCase("no")) {
+    if (answer.equals("no")) {
       System.out.println("Good game!");
     }
 // Output if answer is neither yes/no
