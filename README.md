@@ -1,8 +1,7 @@
 # Learn Java
-A list of mini-projects written in Java
+A bunch of Java mini projects
 
-Project ideas by: JorgeGonzalez
-https://github.com/jorgegonzalez/beginner-projects
+Project ideas by: [JorgeGonzalez](https://github.com/jorgegonzalez/beginner-projects)
 
 Solutions posted below
 
