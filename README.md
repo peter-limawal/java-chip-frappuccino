@@ -18,29 +18,11 @@ Solutions posted below
 ## [Pythagorean Triples Checker](https://github.com/peter-limawal/learn-java/blob/master/Pythagorean%20Triples%20Checker/PythagoreanTriplesChecker.java)
 [PythagoreanTriplesCheckerSolution.txt](https://github.com/peter-limawal/learn-java/blob/master/Pythagorean%20Triples%20Checker/PythagoreanTriplesCheckerSolution.txt)
 
-## [rockpaperscissors.java](https://github.com/peter-limawal/learn-java/blob/master/Rock%20Paper%20Scissors%20Game/rockpaperscissors.java)
-https://github.com/peter-limawal/learn-java/blob/master/Rock%20Paper%20Scissors%20Game/rockpaperscissorsSolution.txt
+## [Rock Paper Scissors Game](https://github.com/peter-limawal/learn-java/blob/master/Rock%20Paper%20Scissors%20Game/rockpaperscissors.java)
+[RockPaperScissorsSolution.txt]https://github.com/peter-limawal/learn-java/blob/master/Rock%20Paper%20Scissors%20Game/rockpaperscissorsSolution.txt
 
-## [coinestimator.java](https://github.com/peter-limawal/learn-java/blob/master/Coin%20Estimator%20By%20Weight/coinestimator.java)
+## [Mad Libs](https://github.com/peter-limawal/learn-java/blob/master/Mad%20Libs%20Story%20Maker/madlibs.java)
+[MadLibsSolution.txt]https://github.com/peter-limawal/learn-java/blob/master/Mad%20Libs%20Story%20Maker/madlibs.txt
 
-## [madlibs.java](https://github.com/peter-limawal/learn-java/blob/master/Mad%20Libs%20Story%20Maker/madlibs.java)
-https://github.com/peter-limawal/learn-java/blob/master/Mad%20Libs%20Story%20Maker/madlibs.txt
-
-## [mmm.java](https://github.com/peter-limawal/learn-java/blob/master/Mean,%20Median,%20and%20Mode/mmm.java)
-
-## [guessinggame.java](https://github.com/peter-limawal/learn-java/blob/master/Higher%20Lower%20Guessing%20Game/guessinggame.java)
-
-## [multiplication.java](https://github.com/peter-limawal/learn-java/blob/master/Multiplication%20Table/multiplication.java)
-
-## [fibonacci.java](https://github.com/peter-limawal/learn-java/blob/master/Fibonacci%20Sequence/fibonacci.java)
-https://github.com/peter-limawal/learn-java/blob/master/Fibonacci%20Sequence/fibonacciSolution.txt
-
-## [basejumper.java](https://github.com/peter-limawal/learn-java/blob/master/Base%20Jumper/basejumper.java)
-
-## [hangman.java](https://github.com/peter-limawal/learn-java/blob/master/Hangman%20Game/hangman.java)
-
-## [menucalc.java](https://github.com/peter-limawal/learn-java/blob/master/Menu%20Calculator/menucalc.java)
-
-## [reservation.java](https://github.com/peter-limawal/learn-java/blob/master/Seat%20Reservation/reservation.java)
-
-## [dice.java](https://github.com/peter-limawal/learn-java/blob/master/Dice%20Rolling%20Simulator/dice.java)
+## [Fibonacci](https://github.com/peter-limawal/learn-java/blob/master/Fibonacci%20Sequence/fibonacci.java)
+[FibonacciSolution]https://github.com/peter-limawal/learn-java/blob/master/Fibonacci%20Sequence/fibonacciSolution.txt
