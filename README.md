@@ -23,5 +23,5 @@ Solutions posted below
 ## [Mad Libs](https://github.com/peter-limawal/learn-java/blob/master/Mad%20Libs%20Story%20Maker/madlibs.java)
 [MadLibsSolution.txt](https://github.com/peter-limawal/learn-java/blob/master/Mad%20Libs%20Story%20Maker/madlibs.txt)
 
-## [Fibonacci](https://github.com/peter-limawal/learn-java/blob/master/Fibonacci%20Sequence/fibonacci.java)
+## [Fibonacci](https://github.com/peter-limawal/learn-java/blob/master/Fibonacci%20Sequence/fibonacci.java.txt)
 [FibonacciSolution](https://github.com/peter-limawal/learn-java/blob/master/Fibonacci%20Sequence/fibonacciSolution.txt)
