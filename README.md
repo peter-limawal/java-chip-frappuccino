@@ -18,10 +18,10 @@ Solutions posted below
 [PythagoreanTriplesCheckerSolution.txt](https://github.com/peter-limawal/learn-java/blob/master/Pythagorean%20Triples%20Checker/PythagoreanTriplesCheckerSolution.txt)
 
 ## [Rock Paper Scissors Game](https://github.com/peter-limawal/learn-java/blob/master/Rock%20Paper%20Scissors%20Game/rockpaperscissors.java)
-[RockPaperScissorsSolution.txt]https://github.com/peter-limawal/learn-java/blob/master/Rock%20Paper%20Scissors%20Game/rockpaperscissorsSolution.txt
+[RockPaperScissorsSolution.txt](https://github.com/peter-limawal/learn-java/blob/master/Rock%20Paper%20Scissors%20Game/rockpaperscissorsSolution.txt)
 
 ## [Mad Libs](https://github.com/peter-limawal/learn-java/blob/master/Mad%20Libs%20Story%20Maker/madlibs.java)
-[MadLibsSolution.txt]https://github.com/peter-limawal/learn-java/blob/master/Mad%20Libs%20Story%20Maker/madlibs.txt
+[MadLibsSolution.txt](https://github.com/peter-limawal/learn-java/blob/master/Mad%20Libs%20Story%20Maker/madlibs.txt)
 
 ## [Fibonacci](https://github.com/peter-limawal/learn-java/blob/master/Fibonacci%20Sequence/fibonacci.java)
-[FibonacciSolution]https://github.com/peter-limawal/learn-java/blob/master/Fibonacci%20Sequence/fibonacciSolution.txt
+[FibonacciSolution](https://github.com/peter-limawal/learn-java/blob/master/Fibonacci%20Sequence/fibonacciSolution.txt)
